@@ -1,5 +1,5 @@
 # 404 Name not found
--------
+
 Did not think of a good name yet.
 
 ## Idea
