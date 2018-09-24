@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fantasy;
+  margin: 0;
+}
+
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #99d6ff;
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  background-color: #333;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content{
+  padding-top: 80px;
+}
+
+.navbar a {
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: solid;
+  border-color: #333;
+}
+
+.navbar a:hover {
+  border-bottom-style: solid;
+  border-color: #99d6ff;
+}
+
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer{
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.news{
+  padding-left: 20%;
+}
+
+.newsCard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  translate:3s;
+  width:60%;
+}
+
+.newsLeftHolder{
+  width: 58%;
+}
+
+.newsCard:hover {
+  box-shadow 0.8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+@media screen and (max-width:700px){
+
+}
